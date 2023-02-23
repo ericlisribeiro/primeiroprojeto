@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes</title>
+    <style>
+        h1 {
+            color: white;
+            background-color: brown;
+        }
+        div > p {
+          display: none;
+        }
+
+        div:hover > p {
+            display: block;
+            color: white;
+            background-color: red;
+            width: 600px;
+        }
+
+        div:hover {
+          background-color: red;
+          
+        }
+
+    </style>
+</head>
+<body>
+    <h1>testando hover</h1>
+    <div>
+        passe o mouse aqui
+        <p>TEXTTO ESCONDIDO KKK</p>
+    </div>
+    
+</body>
+</html>
